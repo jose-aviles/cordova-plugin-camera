@@ -69,7 +69,7 @@
           </provider>
         </config-file>
 
-        <!--<config-file target="AndroidManifest.xml" parent="/*">
+        <config-file target="AndroidManifest.xml" parent="/*">
             <queries>
                 <intent>
                     <action android:name="android.media.action.IMAGE_CAPTURE" />
@@ -85,7 +85,7 @@
                     <data android:scheme="content" android:mimeType="image/*"/>
                 </intent>
             </queries>
-        </config-file>-->
+        </config-file>
 
         <source-file src="src/android/CameraLauncher.java" target-dir="src/org/apache/cordova/camera" />
         <source-file src="src/android/FileHelper.java" target-dir="src/org/apache/cordova/camera" />
